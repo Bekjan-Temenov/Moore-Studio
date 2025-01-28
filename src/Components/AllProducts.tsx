@@ -163,8 +163,8 @@ const AllProducts: React.FC = () => {
             onPageChange={handlePageClick}
             containerClassName={"flex justify-center items-center   mt-4 gap-2"}
             pageClassName={"px-3 py-1 border border-gray-300   rounded-full"}
-            previousClassName={""}
-            nextClassName={""}
+            previousClassName={"cursor-pointer"}
+            nextClassName={"cursor-pointer"}
             activeClassName={"bg-[#93A27C]  text-white"}
             />
       </Container>
